@@ -1,0 +1,6 @@
+# Palindrom_Number.py
+class Solution:
+    def isPalindrome(self, x):
+        s = str(x)
+        var = s[::-1]
+        return (var == s)
